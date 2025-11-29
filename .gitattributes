@@ -1,2 +1,2 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
-*.xlsxd filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
