@@ -22,6 +22,8 @@
    - Baseline model like logistic regression or KNN
    - Random forest (also do gridsearch here)
    - Neural network 
+   - Plot the **early stopping** graph
+   - Dropout learning (randomly remove a fraction of the units)
 
 6. **Model evaluation & selection**
    - Evaluating all models on either F1, MSE or another metric
