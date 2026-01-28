@@ -10,6 +10,7 @@ cycler==0.12.1
 debugpy==1.8.7
 decorator==5.1.1
 executing==2.1.0
+Fastparquet==12.0
 filelock==3.16.1
 fonttools==4.54.1
 fsspec==2024.10.0

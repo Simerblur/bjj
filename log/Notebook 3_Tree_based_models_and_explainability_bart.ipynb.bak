@@ -706,7 +706,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 42,
    "id": "915b62c0",
    "metadata": {},
    "outputs": [],
@@ -717,7 +717,7 @@
     "# Then we create the validation fraction which is 20% of the initial 80% training dat, so 1-0.64 = 0.16\n",
     "# the \"rest\" of the data is the testset \n",
     "class TrainTestSplitter: \n",
-    "    def __init__(self, train_frac=0.64, val_frac=0.16, seed=42): #initialize the object, with 64% training data, 16% validation\n",
+    "    def __init__(self, train_frac=0.64, val_frac=0.16, seed=1234): #initialize the object, with 64% training data, 16% validation\n",
     "        self.train_frac = train_frac # Use the self statement to let the function remember the settings\n",
     "        self.val_frac = val_frac \n",
     "        self.seed = seed #Make sure that the first and the second split use the same starting point\n",
